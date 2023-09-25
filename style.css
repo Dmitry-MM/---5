@@ -1,12 +1,12 @@
 @import url(story.css);
 @font-face {
     font-family: 'BebasNeueBold';
-    src: url('/fonts/1.ttf') format('truetype');
+    src: url('../fonts/1.ttf') format('truetype');
     font-style: normal;
 }
 @font-face {
     font-family: 'OpenSans';
-    src: url('/fonts/2.ttf') format('truetype');
+    src: url('../fonts/2.ttf') format('truetype');
     font-style: normal;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .header_img {
-  background-image: url(/pics/2.jpg);
+  background-image: url(/..pics/2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -148,7 +148,7 @@ body {
 }
 
 .li1Head {
-    background-image: url(/pics/Bitmap-3.jpg);
+    background-image: url(../pics/Bitmap-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 200px;
@@ -161,7 +161,7 @@ body {
 }
 
 .li2Head {
-    background-image: url(/pics/Bitmap-2.jpg);
+    background-image: url(../pics/Bitmap-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 200px;
@@ -174,7 +174,7 @@ body {
 }
 
 .li3Head {
-    background-image: url(/pics/Bitmap.jpg);
+    background-image: url(../pics/Bitmap.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 200px;
@@ -273,7 +273,7 @@ body {
 }
 
 .photoList1 {
-    background-image: url(/pics/Mini-1.png);
+    background-image: url(../pics/Mini-1.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 115px;
@@ -282,7 +282,7 @@ body {
 }
 
 .photoList2 {
-    background-image: url(/pics/Mini-2.png);
+    background-image: url(../pics/Mini-2.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 115px;
@@ -291,7 +291,7 @@ body {
 }
 
 .photoList3 {
-    background-image: url(/pics/Mini-3.png);
+    background-image: url(../pics/Mini-3.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 115px;
@@ -309,7 +309,7 @@ body {
 }
 
 .photoPhoto {
-  background-image: url(/pics/bg.png);
+  background-image: url(../pics/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -426,7 +426,7 @@ body {
 }
 
 .contactLinks {
-    background-image: url(/pics/socials.png);
+    background-image: url(../pics/socials.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 180px;
