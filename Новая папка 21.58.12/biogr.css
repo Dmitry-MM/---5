@@ -1,0 +1,48 @@
+.biogr{
+    width: var(--width-main);
+    max-height: 1920px;
+}
+
+.biogr_box_img{
+    mix-blend-mode: overlay;
+    position:relative;
+    z-index: 1;
+    width: 73%;
+}
+
+.biogr_box_about_img{
+    background: url(../images/1-269.jpg) no-repeat;
+    background-size: cover;
+    height: 1100pX;
+    position: absolute;
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+.biogr_box{
+    position: relative;
+    z-index: 5;
+}
+
+.biogr_p{
+    padding-left: var(--padding-text);
+    padding-right: var(--padding-text);
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.biogr_box_about{
+    height: 1100px;
+    text-align: center;
+}
+
+.biogr_box_about_text{
+    top: -600px;
+}
+.biogr_box_about h2 {
+    font-size: 80px; 
+    font-weight: lighter;
+    text-shadow: 5px 5px 0 white, -5px -5px 0 white, 5px -5px 0 white, -5px 5px 0 white;
+    padding: 50px;
+}

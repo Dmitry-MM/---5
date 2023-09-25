@@ -1,0 +1,24 @@
+@import url(base.css);
+@import url(reset.css);
+
+@import url(header.css);
+@import url(footer.css);
+@import url(menu.css);
+@import url(content.css);
+@import url(biogr.css);
+
+body{
+    margin:auto;
+    max-width: var(--width);
+}
+
+.container {
+    width: var(--width);
+    background-color: var(--color-blue);
+    color: var(--color-gray);
+    font-family: var(--font-family-text);
+    font-size: var(--font-size-p);
+}
+
+
+
